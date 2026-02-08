@@ -1,0 +1,31 @@
+Model: "efficientnet_defect_classifier"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_image (InputLayer)    [(None, 224, 224, 3)]     0         
+                                                                 
+ efficientnet_base (Function  (None, 7, 7, 1280)       4049571   
+ al)                                                             
+                                                                 
+ gap (GlobalAveragePooling2D  (None, 1280)             0         
+ )                                                               
+                                                                 
+ dropout_1 (Dropout)         (None, 1280)              0         
+                                                                 
+ dense_1 (Dense)             (None, 128)               163968    
+                                                                 
+ batch_norm (BatchNormalizat  (None, 128)              512       
+ ion)                                                            
+                                                                 
+ dropout_2 (Dropout)         (None, 128)               0         
+                                                                 
+ predictions (Dense)         (None, 8)                 1032      
+                                                                 
+=================================================================
+Total params: 4,215,083
+Trainable params: 2,470,552
+Non-trainable params: 1,744,531
+_________________________________________________________________
+
+
+=== TFLite Operator Details ===
