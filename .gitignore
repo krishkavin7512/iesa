@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+venv310/
+.venv/
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Project Data (Large Files)
+data/raw/
+data/processed/
+data/augmented/
+# Keep scripts in data/
+!data/*.py
+
+# Outputs (Large Files)
+outputs/models/
+outputs/checkpoints/
+outputs/logs/
+# Keep metrics/plots? Maybe.
+# outputs/metrics_efficientnet_final_weights/ is okay (small .json, .png)
+
+# Win
+Thumbs.db
+Desktop.ini
