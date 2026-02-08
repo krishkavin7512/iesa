@@ -1,0 +1,63 @@
+{
+    "clean": {
+        "precision": 0.19282511210762332,
+        "recall": 0.5733333333333334,
+        "f1-score": 0.28859060402684567,
+        "support": 75.0
+    },
+    "scratches": {
+        "precision": 0.38,
+        "recall": 0.76,
+        "f1-score": 0.5066666666666667,
+        "support": 75.0
+    },
+    "particles": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
+    "pattern_defects": {
+        "precision": 1.0,
+        "recall": 0.9345114345114345,
+        "f1-score": 0.9661472326706072,
+        "support": 962.0
+    },
+    "edge_defects": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 185.0
+    },
+    "center_defects": {
+        "precision": 0.43089430894308944,
+        "recall": 0.43089430894308944,
+        "f1-score": 0.43089430894308944,
+        "support": 123.0
+    },
+    "random_defects": {
+        "precision": 0.74,
+        "recall": 0.9866666666666667,
+        "f1-score": 0.8457142857142858,
+        "support": 75.0
+    },
+    "other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+    },
+    "accuracy": 0.7531772575250836,
+    "macro avg": {
+        "precision": 0.3429649276313391,
+        "recall": 0.4606757179318155,
+        "f1-score": 0.37975163725268685,
+        "support": 1495.0
+    },
+    "weighted avg": {
+        "precision": 0.7447905574635931,
+        "recall": 0.7531772575250836,
+        "f1-score": 0.7394692338192033,
+        "support": 1495.0
+    }
+}
